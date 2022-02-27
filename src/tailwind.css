@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+
+.btn {
+  @apply shadow-md py-3 px-10 my-5 rounded-full transition duration-300 bg-fylo-Blue text-white font-bold;
+}
+
+.testimonal-card {
+  @apply text-gray-200 bg-fylo-Dark-Blue-4  mx-auto p-6 relative z-10 mb-5 rounded-lg w-90vw mx-4;
+}
+.section-2-card {
+  @apply flex justify-center items-center flex-col text-center py-5 lg:py-12 max-w-md;
+}
+.gradient-half {
+  background: linear-gradient(
+    to bottom,
+    theme("colors.fylo-Dark-Blue-4") 50%,
+    theme("colors.fylo-Dark-Blue-2") 50%
+  );
+}
+input {
+  @apply outline-none;
+}
